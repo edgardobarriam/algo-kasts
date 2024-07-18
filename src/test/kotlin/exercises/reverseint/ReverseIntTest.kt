@@ -3,12 +3,12 @@ package exercises.reverseint
 import kotlin.test.assertEquals
 import kotlin.test.Test
 
-class ReverseIntIntTest {
+class ReverseIntTest {
 
   private val reverseInt = ReverseInt()
 
   @Test
-  fun reverseIntInt() {
+  fun reverseInt() {
     assertEquals(0, reverseInt.reverseInt(0))
 
     assertEquals(5, reverseInt.reverseInt(5))
