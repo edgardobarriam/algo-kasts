@@ -1,6 +1,5 @@
 package exercises.vowels
 
-import java.util.*
 
 class Vowels {
 
@@ -15,10 +14,10 @@ class Vowels {
   fun vowels(str: String): Int {
     val vowels = listOf('a', 'e', 'i', 'o', 'u')
 
-    var vowelCount = 0;
+    var vowelCount = 0
     for (c in str.lowercase()) {
       if (vowels.contains(c)) {vowelCount++}
     }
-    return vowelCount;
+    return vowelCount
   }
 }
